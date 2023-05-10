@@ -1,0 +1,39 @@
+@import "../../assets/dist/main";
+
+.countries {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  thead {
+    tr {
+      th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: $headerBackground;
+        color: $platinum;
+      }
+    }
+  }
+
+  tr:hover {
+    background-color: $battleshipGray;
+  }
+
+  .info {
+    td {
+      padding: 8px;
+      border-bottom: 2px solid $ashGray;
+    }
+    td:last-child {
+      //border: 1px solid $ashGray;
+      width: 20px;
+      border-bottom: none;
+    }
+  }
+}
+
+.countries-flag {
+  height: 25px;
+  width: 40px;
+}

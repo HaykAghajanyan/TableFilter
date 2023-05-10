@@ -1,0 +1,12 @@
+@import "../../assets/dist/main";
+
+.remove {
+  background-color: $gray;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

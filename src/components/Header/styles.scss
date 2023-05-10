@@ -1,0 +1,32 @@
+@import "../../assets/dist/main";
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+  > .left-side {
+    display: flex;
+    gap: 20px;
+
+    > .search {
+      padding: 8px;
+      border: 1px solid $lightGray;
+      border-radius: 3px;
+      color: $lightGray;
+    }
+  }
+
+  #population {
+    width: 180px;
+    border: 1px solid $lightGray;
+    border-radius: 3px;
+  }
+
+  #region {
+    width: 180px;
+    padding: 8px;
+    border: 1px solid $lightGray;
+    border-radius: 3px;
+  }
+}
